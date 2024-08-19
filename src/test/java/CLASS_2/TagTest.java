@@ -12,12 +12,18 @@ public class TagTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://parabank.parasoft.com/parabank/index.htm");
         driver.manage().window().maximize();
-        System.out.println("======================================");
+
+        System.out.println("==============getText========================");
         List<WebElement> webElements = driver.findElements(By.tagName("a"));
        for(WebElement element: webElements){
-           System.out.println(element.getText());
+
+           //System.out.println(element.getText());
+           System.out.println(element.getText()+" "+element.getAttribute("href"));
        }
         System.out.println("======================================");
+       //Fetch value from dom: getText();
+        //Click any button, link,url use click();
+        // Send value in UI use sendKeys();
 
 
 
