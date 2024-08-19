@@ -15,6 +15,7 @@ public class TagTest {
 
         System.out.println("==============getText========================");
         List<WebElement> webElements = driver.findElements(By.tagName("a"));
+        System.out.println("total elements: " + webElements.size());
        for(WebElement element: webElements){
 
            //System.out.println(element.getText());
@@ -24,6 +25,7 @@ public class TagTest {
        //Fetch value from dom: getText();
         //Click any button, link,url use click();
         // Send value in UI use sendKeys();
+
 
 
 
