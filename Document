@@ -1,0 +1,61 @@
+Selector/Locator
+findElement/findElements
+Action:
+    Fetch value from dom:
+    1. getText();
+    exapmle: <a>Naba</a> return: Naba
+    2. getAttribute("id");
+    exapmle: <a id="name">Naba</a> return: name
+
+    Click any button, link,url use
+    2. click();
+    Send value in UI use
+    3. sendKeys();
+    xpath: //tagName[@attributename='value']
+    cssSelector: tagName[attributeName='value']
+
+    <input class="input_error form_input" placeholder="Username" type="text"
+    data-test="username" id="user-name" name="user-name" autocorrect="off"
+    autocapitalize="none" value="">
+    xpath: //input[@placeholder='Username']
+    cssSelector: input[placeholder='Username']
+    =====buttons
+    <input type="submit" class="submit-button btn_action"
+    data-test="login-button" id="login-button"
+    name="login-button" value="Login" style="" xpath="1">
+
+     xpath: //input[@class='submit-button btn_action']
+     cssSelector: input[class='submit-button btn_action']
+
+
+    ====== xPath Type=========
+    1. relation://
+    2. absulate:/html/body/div[1]/div[3]/div[1]/div/p[1]/a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
