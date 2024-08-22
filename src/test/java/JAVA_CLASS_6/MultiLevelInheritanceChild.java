@@ -1,0 +1,9 @@
+package JAVA_CLASS_6;
+
+public class MultiLevelInheritanceChild extends MultiLevelInheritanceParent {
+
+    public void multiply(int number1,int number2){
+        number = number1*number2;
+        System.out.println("The Product of the given number : " + number);
+    }
+}
