@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" parallel="classes" thread-count="3" name="D:/Selenium_Test">
+        <classes>
+            <class name="testng.SauceDemoTest"></class>
+            <class name="testng.BaseMethodAnnotationTest"></class>
+            <class name="testng.ClassAnnotationTest"></class>
+        </classes>
+    </test>
+</suite>
